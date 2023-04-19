@@ -57,6 +57,17 @@ Installation guideline for [Fedora](https://docs.docker.com/engine/install/fedor
 
 Installation guideline for [Ubuntu](https://docs.docker.com/engine/install/ubuntu/).
 
+### kernel-headers
+```
+$ sudo dnf install kernel-headers
+$ sudo dnf update
+```
+or on Ubuntu
+```
+$ sudo apt install kernel-headers
+$ sudo apt-get update
+```
+
 ---
 **NOTE**
 
